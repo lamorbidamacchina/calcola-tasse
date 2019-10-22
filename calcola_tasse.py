@@ -3,9 +3,9 @@
 import math  
 
 inps = 0.24 # valore percentuale quota inps
-tassa_regionale = 0.0124 # valore percentuale tassa regionale
-addizionale_regionale = 0.021 # valore percentuale addizionale regionale
-tassa_comunale = 0.08 # valore percentuale tassa comunale
+tassa_regionale = 0.0124 # valore percentuale tassa regionale (questo è il valore per la regione Piemonte)
+addizionale_regionale = 0.021 # valore percentuale addizionale regionale (questo è il valore per la regione Piemonte)
+tassa_comunale = 0.08 # valore percentuale tassa comunale (questo è il valore per il comune di Torino)
 
 lordo = int(input("Qual è il tuo reddito lordo? "))
 irpef = 0
