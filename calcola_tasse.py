@@ -2,7 +2,7 @@
 
 import math  
 
-inps = 0.24 # valore percentuale quota inps
+inps = 0.24 # valore percentuale quota inps (questo è il valore per la cassa previdenziale Artigiani e Commercianti)
 tassa_regionale = 0.0124 # valore percentuale tassa regionale (questo è il valore per la regione Piemonte)
 addizionale_regionale = 0.021 # valore percentuale addizionale regionale (questo è il valore per la regione Piemonte)
 tassa_comunale = 0.08 # valore percentuale tassa comunale (questo è il valore per il comune di Torino)
