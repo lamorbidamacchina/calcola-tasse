@@ -12,6 +12,7 @@ irpef = 0
 scaglione = 0
 deduzioni = int(input("Qual è il totale delle tue spese deducibili dal reddito imponibile? "))
 detrazioni = int(input("Qual è il totale delle tue spese detraibili dalle imposte? "))
+inps_tot = lordo * inps
 
 imponibile = lordo - (lordo * inps) - deduzioni
 tax_reg = imponibile * tassa_regionale
@@ -35,7 +36,7 @@ else:
     scaglione = 5
 
 #netto = imponibile - (irpef - detrazioni)
-netto = lordo - inps - irpef - tax_reg - add_reg - tax_com + detrazioni
+netto = lordo - inps_tot - irpef - tax_reg - add_reg - tax_com + detrazioni
 mensile = netto/12
 
 print("Irpef dovuta (stima): ", round(irpef,2))
